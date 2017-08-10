@@ -34,7 +34,7 @@ func countFileLines (path string) int {
 func main() {
 	relatedArgs := os.Args[1:]
 	if len(relatedArgs) == 0 {
-		logger.Fatalln("Wrong usage. Pass file paths or URLs to GitHub repos as arguments like so:\n" +
+		logger.Fatalln("Wrong usage. Pass file paths as arguments like so:\n" +
 			"lc path1 [path2] ... [pathN] ")
 	}
 
